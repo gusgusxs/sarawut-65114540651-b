@@ -1,0 +1,7 @@
+ <from action="" medthod ="get">
+   <input type="text" name="search" id="search">
+   <button type="submit"></button>
+ </from>
+ {% for coruse in coruse %}
+    {{coruse.coruseid}} {{coruse.name}} {{coruse.info}}
+ {% endfor %}
